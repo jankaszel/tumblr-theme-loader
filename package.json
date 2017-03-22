@@ -2,7 +2,7 @@
   "name": "tumblr-theme-loader",
   "version": "0.0.0",
   "description": "parsing tumblr theme syntax with webpack",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:fallafeljan/tumblr-theme-loader.git",
   "author": "jk",
   "engines": {
@@ -13,7 +13,7 @@
     "tumblr-theme-parser": "^1.0.0"
   },
   "scripts": {
-    "format": "prettier --write --single-quote --bracket-spacing false index.js"
+    "format": "prettier --write --single-quote --bracket-spacing false '{lib,test}/**/*.js'"
   },
   "devDependencies": {
     "prettier": "^0.22.0"
