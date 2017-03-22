@@ -1,0 +1,12 @@
+{
+  "name": "tumblr-theme-loader",
+  "version": "0.0.0",
+  "description": "parsing tumblr theme syntax with webpack",
+  "main": "index.js",
+  "repository": "git@github.com:fallafeljan/tumblr-theme-loader.git",
+  "author": "jk",
+  "engines": {
+    "node": ">=6.10"
+  },
+  "license": "MIT"
+}
