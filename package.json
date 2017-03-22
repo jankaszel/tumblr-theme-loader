@@ -8,5 +8,14 @@
   "engines": {
     "node": ">=6.10"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tumblr-theme-parser": "^1.0.0"
+  },
+  "scripts": {
+    "format": "prettier --write --single-quote --bracket-spacing false index.js"
+  },
+  "devDependencies": {
+    "prettier": "^0.22.0"
+  }
 }
