@@ -10,12 +10,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "loader-utils": "^1.1.0",
     "tumblr-theme-parser": "^1.0.0"
   },
   "scripts": {
-    "format": "prettier --write --single-quote --bracket-spacing false '{lib,test}/**/*.js'"
+    "format": "prettier --write --single-quote --bracket-spacing false '{lib,test}/**/*.js'",
+    "test": "mocha"
   },
   "devDependencies": {
+    "mocha": "^3.2.0",
     "prettier": "^0.22.0"
   }
 }
