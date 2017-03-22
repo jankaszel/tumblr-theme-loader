@@ -8,7 +8,7 @@ Loader for [Webpack 2](https://webpack.js.org) that parses [Tumblr](https://tumb
 
 Use the loader on your template HTML, prior to loading it with loaders such as [`html-loader`](https://github.com/webpack-contrib/html-loader). Plug it into your configuration:
 
-```json
+```js
   module: {
     rules: [{
       test: /\.html$/,
